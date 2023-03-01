@@ -2,67 +2,76 @@
 layout: default
 ---
 
-## This course outlines the fundamental notions and theories on computational linguistics and natural language processing, dealing with current issues on deep learning models and the Transformer mechanism and large-scale language models based on them.
 
-### Nice, clean, reading!
+### Course Information
 
-Good clean read is set up with readability first in mind. Whatever you want to communicate here can be read easily, and without distraction. Of course, it's fully responsive, which means people can read it naturally on any phone, or tablet. Write it in markdown in <code>index.md</code> and get a beautifully published piece.
+* Instructor: Sangah Lee (sanalee@snu.ac.kr)
+* TA: Minji Kang (mnjkng@snu.ac.kr)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This course outlines the fundamental notions and theories on computational linguistics and natural language processing, dealing with current issues on deep learning models and the Transformer mechanism and large-scale language models based on them.
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+* Prerequisite course: Language and Computer (or, students that can implement at least the logistic regression model in Python are allowed)
+* Students majoring in engineering could get separate grades.
 
-### With footnotes too!
+### Resources
+* [Numpy and Data Representation](https://jalammar.github.io/visual-numpy/)
+* [NLTK (Natural Language Toolkit)](https://www.nltk.org/)
+* [SpaCy](https://spacy.io/)
+* [textacy](https://textacy.readthedocs.io/en/latest/)
+* [csv](https://docs.python.org/3/library/csv.html)
+* [json](https://docs.python.org/3/library/json.html)
+* [Python "Class"](https://docs.python.org/3/tutorial/classes.html)
 
-Back up your stuff with solid, clean citations. Footnotes can be written in markdown and appear like this.[^1] Use as many as you like.[^2]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Syllabus
 
-### Add social sharing buttons
+* **Week 0 (3/2 Thu)** Course Introduction
+  * slides: ![download](https://github.com/sanajlee/cl2023u/raw/main/cl0_courseintro.pdf)
 
-Simply add the following line anywhere in your markdown:
+* **Week 1 (3/7, 3/9)** Basics of Text Processing
+  * [Natural Language Processing is Fun!](https://medium.com/@ageitgey/natural-language-processing-is-fun-9a0bff37854e)
+  * [Natural Langauge Processing with Python](https://www.nltk.org/book/)
+  * [Hands-on-nltk-tutorial](https://github.com/hb20007/hands-on-nltk-tutorial)
+  * PyTorch
+    * [Matrices](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_matrices/)
+    * [Gradients](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_gradients/)
+    * [Linear Regression](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_linear_regression/)
+    * [Logistic Regression](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_logistic_regression/)
+  
+* **Week 2 (3/14, 3/16)** PyTorch: Feed Forward Neural Network, Recurrent Neural Networks
+  * [Feed Forward Neural Network (FFN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_feedforward_neuralnetwork/)
+  * [Recurrent Neural Network (RNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_recurrent_neuralnetwork/)
 
-<pre><code>{% raw  %}
-{% include sharing.html %}
-{% endraw %}
-</code></pre>
+* **Week 3 (3/21, 3/23)** PyTorch: Convolutional Neural Networks, Long Short Term Neural Network (LSTM)
+  * [Convolutional Neural Network (CNN)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_convolutional_neuralnetwork/)
+  * [Long Short-Term Memory (LSTM)](https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_lstm_neuralnetwork/)
 
-and get a nice responsive sharing ribbon.
+* **Week 4 (3/28, 3/30)** Language Model I: Statistical Language Model (N-gram)
 
-{% include sharing.html %}
+* **Week 5 (4/4, 4/6)** N-gram and Entropy
 
-Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
+* **Week 6 (4/11, 4/13)** Text Classification
 
-Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
+* **Week 7 (4/18, 4/20)** Language Model II: Word Embedding
 
-### Font awesome is also included
+* **Week 8 (4/25, 4/27)** Midterm Exam
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> Now you can use all the cool icons you want! [Font Awesome](http://fontawesome.io) is indeed awesome. But wait, you don't need this sweetness and you don't want that little bit of load time from the font awesome css? No problem, just disable it in the `config.yml` file, and it won't be loaded.
+* **Week 9 (5/2, 5/4)** Sequence-to-Sequence Model (Encoder-Decoder)
 
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>you can make lists...</li>
-  <li><i class="fa-li fa fa-check-square-o"></i>with cool icons like this,</li>
-  <li><i class="fa-li fa fa-spinner fa-spin"></i>even ones that move!</li>
-</ul>
+* **Week 10 (5/9, 5/11)** Attention
 
-If you need them, you can stick any of the [605 icons](http://fontawesome.io/icons/) anywhere, with any size you like. ([See documentation](http://fontawesome.io/examples/))
+* **Week 11 (5/16, 5/18)** Transformer
 
-<i class="fa fa-building"></i>&nbsp;&nbsp;<i class="fa fa-bus fa-lg"></i>&nbsp;&nbsp;<i class="fa fa-cube fa-2x"></i>&nbsp;&nbsp;<i class="fa fa-paper-plane fa-3x"></i>&nbsp;&nbsp;<i class="fa fa-camera-retro fa-4x">
+* **Week 12 (5/23, 5/25)** Transformer-based Pre-trained Models
 
-### Add images to make your point
+* **Week 13 (5/30, 6/1)** HuggingFace Transformer
 
-Images play nicely with this template as well. Add diagrams or charts to make your point, and the template will fit them in appropriately.
+* **Week 14 (6/8 Thu, 6/13 Tue)** Various NLP Tasks based on Transformer
 
-<img src="images/hello.svg" alt="sample image">
+* **Week 15 (6/15 Thu)** Final Project Presentations
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Thanks to [Shu Uesengi](https://github.com/chibicode) for inspiring and providing the base for this template with his excellent work, [solo](https://github.com/chibicode).
 
-<hr>
 
-##### Footnotes:
 
-[^1]: This is a footnote. Click to return.
 
-[^2]: Here is another.
