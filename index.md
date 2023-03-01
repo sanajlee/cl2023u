@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 👾108.413A(002) Computational Linguistics💻
+### 👾108.413A(002) Computational Linguistics💻
 
 
 ### Course Information
