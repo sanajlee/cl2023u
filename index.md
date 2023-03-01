@@ -95,10 +95,7 @@ This course outlines the fundamental notions and theories on computational lingu
   * [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
   * [Transformers Illustrated!](https://tamoghnasaha-22.medium.com/transformers-illustrated-5c9205a6c70f)
   * Seq2seq pay Attention to Self Attention: [Part 1](https://bgg.medium.com/seq2seq-pay-attention-to-self-attention-part-1-d332e85e9aad) [Part 2](https://bgg.medium.com/seq2seq-pay-attention-to-self-attention-part-2-cf81bf32c73d)
- <!--  * Transformers explained visually: [Part 1](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452) [Part 2](https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34) [Part 3](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
-  * Positional Encoding: [Part 1](https://towardsdatascience.com/master-positional-encoding-part-i-63c05d90a0c3) [Part 2](https://towardsdatascience.com/master-positional-encoding-part-ii-1cfc4d3e7375) -->
   * [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
-<!--   * [Solving the Bottleneck of Transformer model](https://chengh.medium.com/evolution-of-fast-and-efficient-transformers-ec0378257994) -->
 
 * **Week 12 (5/23, 5/25)** Transformer-based Pre-trained Models
   * [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](http://jalammar.github.io/illustrated-bert/)
