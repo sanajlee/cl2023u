@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# 👾108.413A(002) Computational Linguistics💻
+
 
 ### Course Information
 
@@ -13,6 +15,7 @@ This course outlines the fundamental notions and theories on computational lingu
 * Prerequisite course: Language and Computer (or, students that can implement at least the logistic regression model in Python are allowed)
 * Students majoring in engineering could get separate grades.
 
+
 ### Resources
 * [Jurafsky and Martin (2023 draft), “Speech and Language Processing”](https://web.stanford.edu/~jurafsky/slp3/)
 * [Practical Deep Learning with PyTorch](https://www.deeplearningwizard.com/deep_learning/course_progression/)
@@ -21,8 +24,6 @@ This course outlines the fundamental notions and theories on computational lingu
 * [Google Colabatory](https://colab.research.google.com/notebooks/welcome.ipynb)
   * [Primer for Learning Google CoLab](https://medium.com/dair-ai/primer-for-learning-google-colab-bb4cabca5dd6)
   * [Google Colab - Quick Guide](https://www.tutorialspoint.com/google_colab/google_colab_quick_guide.htm)
-
-<br>
 
 * [Numpy and Data Representation](https://jalammar.github.io/visual-numpy/)
 * [NLTK (Natural Language Toolkit)](https://www.nltk.org/)
@@ -116,9 +117,5 @@ This course outlines the fundamental notions and theories on computational lingu
 * **Week 14 (6/8 Thu, 6/13 Tue)** Various NLP Tasks based on Transformer
 
 * **Week 15 (6/15 Thu)** Final Project Presentations
-
-
-
-
 
 
