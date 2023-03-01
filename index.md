@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## A Jekyll template for publishing single-page websites and articles that are incredibly readable and fully responsive
+## This course outlines the fundamental notions and theories on computational linguistics and natural language processing, dealing with current issues on deep learning models and the Transformer mechanism and large-scale language models based on them.
 
 ### Nice, clean, reading!
 
